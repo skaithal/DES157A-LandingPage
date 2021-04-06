@@ -1,0 +1,90 @@
+body{
+    color: #FFF1DE; 
+    background-color: #6EB4D1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#banner{
+    height: 250px;
+    width: 1100px;
+    background-color:#6EB4D1;
+    margin: auto;
+    /* border-style: solid;
+    border-color: lightgrey; */
+    display: flex;
+}
+
+.clouds{
+    margin-top: auto;
+    margin-bottom: auto;
+    position: relative;
+    animation-name: dance;
+    animation-timing-function:ease-out;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dance{
+    0% { left: 0px;}
+    50%{ left : -100px;}
+    100%{ left: 0px;}
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+section{
+    width: 250px;
+    background-color: #9999C3;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10%;
+    border-style:solid;
+    border-color: #FFF1DE;
+    
+}
+
+.sun{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    transition: all 0.5s; 
+    visibility: hidden;
+}
+
+section:hover{
+    background-color: #665687;
+}
+
+section:hover > .sun { 
+    transform: scale(50) translateY(-3px); 
+    visibility: visible;
+}
+
+
+header{
+    padding-left: 30px;
+}
+
+header h2{
+    font-style: italic;
+}
+
+footer{
+    display: flex; 
+    justify-content:first baseline;
+    padding-top: 20px;
+}
+
+footer a{
+    padding: 10px 10px 10px 10px;
+}
+
+
