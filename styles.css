@@ -39,6 +39,10 @@ ul{
 li{
     padding-bottom: 10px;
 }
+a{
+    color:#FFF1DE;
+    text-decoration: none;
+}
 main{
     display:flex;
     justify-content: space-evenly;
