@@ -41,6 +41,6 @@ footer{
 }
 
 footer a{
-    display: flex-start;
+    display: flex;
     padding-right: 110px;
 }
