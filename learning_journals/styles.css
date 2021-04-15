@@ -1,0 +1,46 @@
+h1{
+    font-family: 'Noto Sans JP', sans-serif;
+    line-height: 140px;
+}
+
+h2{
+    line-height: 1px;
+}
+
+article{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-bottom: 50px;
+}
+
+div > #container{
+    height: 1366px;
+    width: 768px;
+}
+
+body{
+    padding-left: 350px;
+    padding-top: 170px;
+}
+
+p{
+    line-height: 30px;
+}
+
+
+a{
+    color: black;
+}
+
+/* mark{
+    background-color: #89ac94; 
+} */
+
+footer{
+    color: black;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+footer a{
+    display: flex-start;
+    padding-right: 110px;
+}
