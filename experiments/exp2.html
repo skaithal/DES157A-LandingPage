@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+
+
+    <title>Experiment 2</title>
+</head>
+<body>
+    <header>
+        <h1>Experiment 2</h1>
+        <button>click me!</button>
+        <div id="banner"> 
+            <img class = "clouds" alt = "cloud 1" src="../images/cloud.png" width="250" height = "150">
+            <img class = "clouds" alt = "cloud 2" src="../images/cloud.png" width="200" height = "120">
+            <img class = "clouds" alt = "sun" src="../images/sun.png" width="250" height = "250">
+            <img class = "clouds" alt = "cloud 3" src="../images/cloud.png" width="150" height = "90">
+            <img class = "clouds" alt = "cloud 4" src="../images/cloud.png" width="300" height = "180">
+        </div>
+    </header>
+    
+
+    <script>
+        var btn = document.querySelector('button');
+        var heading = document.querySelector('h1');
+        var person = ''; // to take in user's name
+        var martion_name = ''; // to output martian name
+        var stack = []; // to assist with inverting name
+
+        function martian_translator(name){
+            var i=0;
+            var new_name = ""; 
+            while(i < name.length){
+                stack.push(name[i]);
+                i++;
+            } 
+            i = 0;
+            while(i < name.length){
+                new_name += stack.pop();
+                console.log(new_name);
+                i++;
+            }
+            return new_name;
+        }
+
+        btn.addEventListener('click', function() {
+            person = prompt("What is your name?", "");
+            martian_name = martian_translator(person);
+            heading.innerHTML = (`Welcome to Mars, ${martian_name}!`);
+            document.body.style.backgroundColor = "green";
+        });
+        
+
+        // we use an anonymous function here to take in the person's name. from here, the string is passed to the martian_translator function which uses a stack to invert the name, and then return the name. from here, we set the h1 to be a greetings to mars, using the new martian name. we use the dom properties to set the background color of the page to green to reflect the travel to mars!
+    </script>
+</body>
+</html>
