@@ -10,6 +10,7 @@ h2{
 article{
     font-family: 'Noto Sans JP', sans-serif;
     padding-bottom: 50px;
+    width: 550px;
 }
 
 div > #container{
