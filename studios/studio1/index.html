@@ -6,34 +6,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src = "script.js" defer></script>
 
-    <title>Build Mad Lib Script</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+    <title>madlibs with the kardashians</title>
 </head>
 <body>
-    <header>
-        <h1>Build a Mad Lib Script</h1>
-    </header>
+    <div id = "container">
+        <header>
+            <h1>madlibs.</h1>
+            <h2>with the kardashians</h2>
+        </header>
+    
+        <main>
+            <form id = "myform">
+                <element id = "my-id-elem">
+                    <label for= "my-identity">who am i? (recipient)</label><br/>
+                    <select id="my-identity" name="my-identity">
+                        <option value="Kim">kim</option>
+                        <option value="Khloe">khloe</option>
+                        <option value="Kourtney">kourtney</option>
+                        <option value="Kylie">kylie</option>
+                        <option value="Kendall">kendall</option>
+                        <option value="Kris">kris</option>
+                    </select>
+                </element>
+            
+                <element id = "your-id-elem" >
+                    <label for= "your-identity">who are you? (sender) </label><br/>
+                    <select id="your-identity" name="your-identity">
+                        <option value="Khloe">khloe</option>
+                        <option value="Kim">kim</option>
+                        <option value="Kourtney">kourtney</option>
+                        <option value="Kylie">kylie</option>
+                        <option value="Kendall">kendall</option>
+                        <option value="Kris">kris</option>
+                    </select>
+                    
+                </element>
+                
+                <element id = "noun-elem">
+                    <label for= "noun">provide a plural noun</label>
+                    <input type = "text" id = "noun" placeholder = "eg: apple, lake" required>
+                </element>
+                
+                <element id = "verb-elem">
+                    <label for= "verb">provide a present verb</label>
+                    <input type = "text" id = "verb" placeholder = "eg: run, swim" required>
+                </element>
 
-    <main>
-        <form id = "myform">
-            <label for= "noun1">Provide a Noun</label>
-            <input type = "text" id = "noun1" required>
+                <element id = "adj-elem">
+                    <label for= "adjective">provide an adjective</label>
+                    <input type = "text" id = "adjective" placeholder = "eg: happy, tall" required>
+                </element>
+                
+                <br/>
+                <input type = "submit" id = "submit" value = "send">
 
-            <label for= "noun2">Provide another Noun</label>
-            <input type = "text" id = "noun2" required>
+            </form>
+    
 
-            <label for= "adj">Provide an Adjective</label>
-            <input type = "text" id = "adj" required>
+            <section id = "phone">
+                <div id = "black-rectangle"></div>
+                <div id = "inner-screen"></div>
+                <div id = "notif-screen"></div>
+                <img id = "message-icon" src = "images/messages.png">
+                <p><element id = "recipient">Khloe</element></p>
+                <time datetime="2021-05-05 11:11">Wednesday, May 5</time>
+                <p><element id = "time">11:11</element></p>
+                <p><element id = "phone-id">Kim's iPhone</element></p>
+            </section>
 
-            <label for= "verb">Provide a Verb</label>
-            <input type = "text" id = "verb" required>
+            <article id="madlib"></article>
 
-            <input type = "submit" value = "Send">
-        </form>
-
-        <article id="madlib"></article>
-    </main>
-
-    <footer>
-    </footer>
+        </main>
+    
+        <footer>
+        </footer>
+    </div>
 </body>
 </html>

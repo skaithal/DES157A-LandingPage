@@ -1,0 +1,214 @@
+#container {
+    width: 1368px;
+    height: 768px;
+    position: absolute;
+    background: #FFFFFF;
+    /* background-color: red; */
+}
+
+h1{
+    position: absolute;
+    width: 522px;
+    height: 104px;
+    left: 805px;
+    top: -45px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 100px;
+    line-height: 136px;
+
+    color: #000000;
+
+}
+
+h2{
+    position: absolute;
+    width: 473px;
+    height: 30px;
+    left: 904px;
+    top: 110px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 41px;
+    color: #000000;
+}
+
+div #black-rectangle{   
+    position: absolute;
+    width: 311px;
+    height: 670px;
+    left: 160px;
+    top: 59px;
+
+    background: #000000;
+    border-radius: 50px;
+}
+
+div #inner-screen{
+    position: absolute;
+    width: 271px;
+    height: 585px;
+    left: 180px;
+    top: 93px;
+
+    background: #EB3F5E;
+    border-radius: 20px;
+}
+
+div #notif-screen{
+    position: absolute;
+    width: 208px;
+    height: 258px;
+    left: 211px;
+    top: 356px;
+
+    background: #D0D0D0;
+    opacity: 0.7;
+    border-radius: 20px;
+}
+
+time {
+    position: absolute;
+    width: 208px;
+    height: 21px;
+    left: 217px;
+    top: 282px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+p #time{
+    position: absolute;
+    width: 164px;
+    height: 68px;
+    left: 233px;
+    top: 199px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 87px;
+
+    color: #FFFFFF;
+}
+
+p #phone-id{
+    position: absolute;
+    width: 208px;
+    height: 21px;
+    left: 211px;
+    top: 115px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+form > element{
+    display: block;
+    line-height: 40px;
+    padding-bottom: 15px;
+}
+
+form{
+    position: absolute;
+    width: 224.81px;
+    height: 20px;
+    left: 904px;
+    top: 200px;
+
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+}
+
+form > element > input, select, #submit{
+    font-size: 16px;
+    background: #288CFC;
+    border: 1px solid #288CFC;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: white;
+    padding: 8px 8px 8px 8px;
+    outline: none;
+}
+
+form > element > input:hover, select:hover, #submit:hover {
+    background: #247bdf;
+    border: 1px solid #247bdf;
+}
+
+::placeholder{
+    color: white;
+    font-family: Open Sans;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+#madlib{
+    position: absolute;
+    width: 165px;
+    height: 198px;
+    left: 211px;
+    top: 396px;
+
+
+    padding-top: 20px;
+    padding-left: 20px;
+
+
+    color: white;
+    font-family: Open Sans;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+
+#message-icon{
+    position: absolute;
+    width: 125px;
+    height: 100px;
+    left: 180px;
+    top: 346px;
+
+}
+
+#recipient{
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    left: 260px;
+    top: 382px;
+
+    color: white;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 22px;
+
+}
+
+
+
+
