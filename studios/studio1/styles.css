@@ -209,6 +209,13 @@ form > element > input:hover, select:hover, #submit:hover {
 
 }
 
+footer a{
+    padding: 0px 10px 10px 10px;
+    color: black; 
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 12px;
+}
 
 
 
