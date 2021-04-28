@@ -21,7 +21,8 @@
     
         <main>
             <form id = "myform">
-                <article id = "my-id-elem">
+                <section id = "my-id-elem">
+                    <h2 class = "hidden"></h2>
                     <label for= "my-identity">who am i? (recipient)</label><br/>
                     <select id="my-identity" name="my-identity">
                         <option value="Kim">kim</option>
@@ -31,9 +32,10 @@
                         <option value="Kendall">kendall</option>
                         <option value="Kris">kris</option>
                     </select>
-                </article>
+                </section>
             
-                <article id = "your-id-elem" >
+                <section id = "your-id-elem" >
+                    <h2 class = "hidden"></h2>
                     <label for= "your-identity">who are you? (sender) </label><br/>
                     <select id="your-identity" name="your-identity">
                         <option value="Khloe">khloe</option>
@@ -44,22 +46,25 @@
                         <option value="Kris">kris</option>
                     </select>
                     
-                </article>
+                </section>
                 
-                <article id = "noun-elem">
+                <section id = "noun-elem">
+                    <h2 class = "hidden"></h2>
                     <label for= "noun">provide a plural noun</label>
                     <input type = "text" id = "noun" placeholder = "eg: apples, lakes" required>
-                </article>
+                </section>
                 
-                <article id = "verb-elem">
+                <section id = "verb-elem">
+                    <h2 class = "hidden"></h2>
                     <label for= "verb">provide a present verb</label>
                     <input type = "text" id = "verb" placeholder = "eg: run, swim" required>
-                </article>
+                </section>
 
-                <article id = "adj-elem">
+                <section id = "adj-elem">
+                    <h2 class = "hidden"></h2>
                     <label for= "adjective">provide an adjective</label>
                     <input type = "text" id = "adjective" placeholder = "eg: happy, tall" required>
-                </article>
+                </section>
                 
                 <br/>
                 <input type = "submit" id = "submit" value = "send">
@@ -67,18 +72,21 @@
             </form>
     
 
-            <article id = "phone">
+            <section id = "phone">
+                <h2 class = "hidden"></h2>
                 <div id = "black-rectangle"></div>
                 <div id = "inner-screen"></div>
                 <div id = "notif-screen"></div>
-                <img id = "message-icon" alt = "message icon" src = "images/messages.png">
+                <img id = "message-icon" alt = "message icon" src = "images/messages.png" width = "125" height = "ß100">
                 <p id = "recipient">Khloe</p>
                 <time datetime="2021-05-05 11:11">Wednesday, May 5</time>
                 <p id = "time">11:11</p>
                 <p id = "phone-id">Kim's iPhone</p>
-            </article>
+            </section>
 
-            <article id="madlib"></article>
+            <section id="madlib">
+                <h2 class = "hidden"></h2>
+            </section>
 
         </main>
     

@@ -1,5 +1,6 @@
 (function(){
     'use strict';
+    console.log("reading js");
 
     const myForm = document.querySelector('#myform');
     const madlib = document.querySelector('#madlib');
@@ -18,13 +19,14 @@
 
         let myText;
         if(my_id && your_id && noun && verb && adjective){ 
-            myText = `${my_id}, you don't have to be so ridiculously ${adjective}. Where are my diamond ${noun}? Bible, I'll ${verb} through your billion dollar Bentley if you don't respond to me in 2 seconds. 🤬`; 
+            myText = `${my_id}, you don't have to be so ridiculously ${adjective}. Where are my diamond ${noun}? Bible, I'll ${verb} through your billion dollar Bentley if you don't respond to me in 2 seconds.`; 
         } 
         else { myText = "Please give me words so I can make your Mad Lib!"; }
 
         madlib.innerHTML = myText;
         phone_Id.innerHTML = `${my_id}'s iPhone`; 
         pop_up.innerHTML = `${your_id}`;
+        
 
         switch(my_id){
             case 'Kim': inner_screen.style.backgroundColor = "#EB3F5E"; break; // pink
@@ -37,7 +39,7 @@
         
 
 
-        for(var eachField of formData) {
+        for(let eachField of formData) {
             eachField.value = "";
         }
 
