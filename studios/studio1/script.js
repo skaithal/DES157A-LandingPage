@@ -18,7 +18,7 @@
 
         let myText;
         if(my_id && your_id && noun && verb && adjective){ 
-            myText = `${my_id}, you don't have to be so ridiculously ${adjective}. Where are my diamond ${noun}?! Bible, I'll ${verb} through your billion dollar Bentley if you don't respond to me in 2 seconds.`; 
+            myText = `${my_id}, you don't have to be so ridiculously ${adjective}. Where are my diamond ${noun}? Bible, I'll ${verb} through your billion dollar Bentley if you don't respond to me in 2 seconds. 🤬`; 
         } 
         else { myText = "Please give me words so I can make your Mad Lib!"; }
 
