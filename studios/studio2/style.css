@@ -1,0 +1,295 @@
+/* Holistic Elements --------------------------- */
+#container{
+    width: 1366px;
+    height: 768px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+}
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility: showing;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.overlay article {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 20px;
+    width: 50vw;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    top: 700px;
+    left: 74px;
+} 
+
+footer a{
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+h1{
+    position: absolute;
+    font-weight: bold;
+    font-size: 62px;
+}
+
+h2{
+    position: absolute;
+    font-weight: normal;
+    font-size: 30px;   
+}
+
+h3{
+    position: absolute;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+p {
+    position: absolute;
+    font-weight: normal;
+    font-size: 16px;   
+}
+
+/* Title Page ------------------------------------ */
+
+#title{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    position: relative;
+    top: 490px;
+    left: 65px;
+    
+}
+
+#title > img{
+    position: absolute;
+    left: -65px;
+    top: -465px;
+    border-radius: 100%;
+    transition: 1s all;
+    transform: scale(0.65);
+}
+
+#title > img:hover{
+    transition: 1s all;
+    transform: scale(0.7);
+    cursor: pointer;
+}
+
+#title > h1{
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+#title > h2{
+    position: absolute;
+}
+
+
+/* Sunatya Page ---------------------------------- */
+
+
+/* Jhankaar Page ---------------------------------- */
+
+
+/* Divs ------------------------------- */
+
+#title{
+    background-color: white;
+}
+
+#main-display {
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    left: 924px;
+    
+}
+
+#main-display > section > h1{
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#main-display > section > p{
+    position: relative;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+
+#sunatya{
+    position: relative;
+    background-color: #F3E8EA;
+    width: 442px;
+    height: 192px;
+}
+
+#sunatya:hover{
+    /* background-image: url("./images/sunatya-1.jpeg");
+    background-position: right bottom; */
+    background-color: #e0d4d6;
+    cursor: pointer;
+    color: white;
+}
+
+#jhankaar{
+    position: relative;
+    background-color: #9297AD;
+    width: 442px;
+    height: 154px;
+}
+
+#jhankaar:hover{
+    color: white;
+    background-color: #828699;
+    cursor: pointer;
+}
+
+#sanfrancisco{
+    position: relative;
+    background-color: #B3A7BA;
+    width: 442px;
+    height: 192px;  
+}
+
+#sanfrancisco:hover{
+    color: white;
+    background-color: #a497ac;
+    cursor: pointer;
+}
+
+#pumpkinpatch{
+    position: relative;
+    background-color: #D59585;
+    width: 442px;
+    height: 192px;
+}
+
+#pumpkinpatch:hover{
+    color: white;
+    /* background-image: url("./images/pumpkin-1.jpeg");
+    background-position: center center; */
+    background-color: #c08779;
+    cursor: pointer;
+}
+
+#burlingame{
+    position: relative;
+    background-color: #BCCCDE;
+    width: 442px;
+    height: 192px;
+}
+
+#burlingame:hover{
+    color: white;
+    background-color: #a8b6c5;
+    cursor: pointer;
+}
+
+/* Images ------------------------------------------ */
+
+#sunatya-img-1 {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#sunatya-img-2 {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#sunatya-img-3 {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* Colors ------------------------------------------- */
+
+.color-palette{
+    width: 50px;
+    height: 50px;
+    border-radius:50px ;
+}
+
+nav{
+    display: flex;
+}
+
+#jhankaar-1 {
+    position: relative;
+    background-color: #394972;
+}
+
+#jhankaar-2 {
+    position: relative;
+    background-color: #CD784B;;
+}
+
+#jhankaar-3 {
+    position: relative;
+    background-color: #D44A2D;;
+
+}
+
+#jhankaar-4 {
+    position: relative;
+    background-color: black;
+}
+
+#sunatya-1 {
+    position: relative;
+    background-color: #F1BE71;
+}
+
+#sunatya-2 {
+    position: relative;
+    background-color:#676753;
+}
+
+#sunatya-3 {
+    position: relative;
+    background-color: white;
+}
+
+#sunatya-4 {
+    position: relative;
+    background-color: #787375;
+}
