@@ -22,14 +22,6 @@
     })
 
 
-
-
-
-
-
-
-
-
     // let pageTop;
     // let containerTag = document.querySelector('#container');
 

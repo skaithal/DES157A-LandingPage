@@ -12,7 +12,7 @@
 }
 
 .showing {
-    visibility: showing;
+    visibility:visible;
     opacity: 1;
 }
 
@@ -31,14 +31,65 @@
 .overlay article {
     box-sizing: border-box;
     background-color: #fff;
-    padding: 20px;
-    width: 50vw;
+    width: 35vw;
     height: 80vh;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow-y: scroll;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+#ol-profile article{
+    justify-content: center;
+    background-color:#b19599;
+    height: 44vh;
+    border-radius: 20px;
+    color:cornsilk;
+}
+
+
+#ol-profile article > h2, p{
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+    width: 350px;
+}
+
+#greeting{
+    top: 2px;
+    padding-bottom: 10px;
+}
+
+#ending{
+    top: 150px;
+    padding-bottom: 10px;
+}
+
+#ol-sunatya article{
+    background-color: #F1BE71;
+}
+
+#ol-pumpkinpatch article{
+    background-color: #D17148;
+}
+
+#ol-sanfrancisco article{
+    background-color: #665878;
+}
+
+#ol-burlingame article{
+    background-color: #788797;
 }
 
 footer{
@@ -154,10 +205,13 @@ p {
     justify-content: center;
 }
 
+#main-display > section{
+    border-radius: 50%;
+}
 
 #sunatya{
     position: relative;
-    background-color: #F3E8EA;
+    background-color: #ddc1c5;
     width: 442px;
     height: 192px;
 }
@@ -165,9 +219,9 @@ p {
 #sunatya:hover{
     /* background-image: url("./images/sunatya-1.jpeg");
     background-position: right bottom; */
-    background-color: #e0d4d6;
+    background-color: #c3a5aa;
     cursor: pointer;
-    color: white;
+    color: cornsilk;
 }
 
 #jhankaar{
@@ -178,7 +232,7 @@ p {
 }
 
 #jhankaar:hover{
-    color: white;
+    color: cornsilk;
     background-color: #828699;
     cursor: pointer;
 }
@@ -191,7 +245,7 @@ p {
 }
 
 #sanfrancisco:hover{
-    color: white;
+    color: cornsilk;
     background-color: #a497ac;
     cursor: pointer;
 }
@@ -204,7 +258,7 @@ p {
 }
 
 #pumpkinpatch:hover{
-    color: white;
+    color: cornsilk;
     /* background-image: url("./images/pumpkin-1.jpeg");
     background-position: center center; */
     background-color: #c08779;
@@ -219,7 +273,7 @@ p {
 }
 
 #burlingame:hover{
-    color: white;
+    color: cornsilk;
     background-color: #a8b6c5;
     cursor: pointer;
 }
