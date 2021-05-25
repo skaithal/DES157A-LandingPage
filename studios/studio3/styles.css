@@ -1,0 +1,100 @@
+#container{
+    width: 1366px;
+    height: 768px;
+    font-family: 'Gothic A1', sans-serif;
+    color: white; 
+    background-color:black; 
+}
+img{
+    transform: scale(0.5);
+}
+section{
+    /* padding: 20px; */
+    border-radius: 20px;
+
+}
+
+h3{
+    font-size: 35px;
+}
+
+ul{
+    position: absolute;
+    top: 60px;
+    left: 46px;
+    line-height: 25px;
+    font-weight: 200px;
+}
+
+#green{
+    position: absolute;
+    width: 788px;
+    height: 238px;
+    background-color: #66A656;
+    left: 289px;
+    top: 195px;
+}
+
+#green:hover{
+    background-color: #377727;
+}
+
+#blue{
+    position: absolute;
+    width: 379px;
+    height: 238px;
+    background-color: #609fc3;
+    left: 289px;
+    top: 459px;
+}
+
+#blue:hover{
+    background-color: #3d7ea7;
+}
+
+#pink{
+    position: absolute;
+    width: 379px;
+    height: 238px;
+    background-color: #C472D1;
+    left: 698px;
+    top: 459px;
+}
+
+#pink:hover{
+    background-color: #a14fad;
+}
+
+#spotify-title{
+    position: absolute;
+    left: 371px;
+    top: 37px;
+    font-weight: 500;
+    font-size: 65px;
+}
+
+#gameplayer-title{
+    position: absolute;
+    left: 611px;
+    top: 27px;
+    font-weight: 200;
+    font-size: 65px;
+}
+
+#rules{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: -7px;
+
+}
+
+#player1, #player2{
+    text-align: center;
+    justify-content: center;
+}
+
+#dl{
+    position: absolute;
+    
+}
