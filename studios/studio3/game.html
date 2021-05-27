@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game of PIG</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	<link href="styles.css" rel="stylesheet">
+    <link rel = "stylesheet" type = "text/css" href="styles.css"> 
+    <script src = "script.js" defer></script>
+</head>
+<body>
+    <div id = "container" >
+        <div id="gamecontrol">
+            <h2 id = "start">Spotify GamePlayer</h2>
+            <button id="startgame">Randomly Pick the First Player, and Start the Game</button>
+        </div>
+    
+        <div id="game"></div>
+        <div id="actions"></div>
+        <div id="score"></div>
+
+        <div id = "game-bar">
+            <section id = "blue-game">
+                <img id = "dl-game" src = "images/driverslicense.png" alt = "driverslicense" width = 498 height = 178>
+                <section id = "dl-play-bar">
+                    <img src="images/pink-backward.png" alt="pink-backward" width = 80 height = 80>
+                    <img src="images/pink-play.png" alt="pink-play" width = 80 height = 80>
+                    <img src="images/pink-forward.png" alt="pink-forward" width = 80 height = 80>
+                    <div id = "dl-progress"></div>
+                    <h1 id = "game-player1" > Player 1</h1>
+                    <div id = "p1-score"></div>
+                </section>
+
+            </section>
+            
+            <section id = "pink-game">
+                <img id = "dv-game" src = "images/dejavu.png" alt = "dejavu" width = 498 height = 178>
+                <section id = "dv-play-bar">
+                    <img src="images/orange-backward.png" alt="orange-backward" width = 80 height = 80>
+                    <img src="images/orange-play.png" alt="orange-play" width = 80 height = 80>
+                    <img src="images/orange-forward.png" alt="orange-forward" width = 80 height = 80>
+                    <div id = "dv-progress"></div>
+                    <h1 id = "game-player2">Player 2</h1>
+                    <div id = "p2-score"></div>
+                </section>
+            </section>
+            
+        </div>
+        
+    </div>
+</body>
+</html>
