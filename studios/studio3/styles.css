@@ -37,7 +37,7 @@ h3{
 }
 
 #start{
-    position:relative;
+    position:absolute;
     font-family: 'Gothic A1', sans-serif;
     font-weight:100;
     text-align: center;
@@ -82,6 +82,7 @@ ul{
     width: 600px;
     height: 208px;
     background-color: #FF8A5B;
+    margin-left: 166px;
 }
 
 #pink:hover{
@@ -233,22 +234,24 @@ footer a{
 #dl-game{
     position: absolute;
     left: -60px;
-    top: 540px;
+    top: -20px;
 }
 
 #dv-game{
     position: absolute;
     left: 930px;
-    top: 540px;
+    top: -20px;
 }
 
 #game-bar{
-    position: relative;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-end;
-    padding-top: 560px;
+    /* padding-top: 560px; */
+    height: 210px;
+    top: 558px;
 }
 
 #dl-play-bar{
@@ -287,16 +290,16 @@ footer a{
 
 #game-player1{
     position: absolute;
-    padding-left: 330px;
-    top: 560px;
+    padding-left: 370px;
+    top: 10px;
     font-weight: 100;
 }
 
 #game-player2{
     position: absolute;
-    top: 560px;
-    left: 830px;
+    top: 10px;
     font-weight: 100;
+    margin-left: -210px;
 }
 
 #one-score{
@@ -335,12 +338,106 @@ footer a{
     color: white;
     padding: 15px;
     border: none;
-    left: 1185px;
+    left: 1060px;
     top: -164px;
     transform: scale(1);
     text-align: center;
 }
 
 #started-game{
+    position: absolute;
     font-weight: 100;
+    top: -155px;
+    left: 1070px;
+}
+
+#gamecontrol{
+    position: absolute;
+    width: 1366px;
+    height: 200px;
+}
+
+#actions{
+    /* position: absolute; */
+    display: flex;
+    flex-direction:row;
+    /* left: 500px; */
+    width: 1366px;
+    margin-left: 605px ;
+    margin-top: 50px;;
+}
+
+#roll{
+    border-radius: 30px;
+    position: absolute;
+    background-color:#6184D8;
+    color: white;
+    padding: 10px;
+    border: none;
+    transform: scale(1.5);
+    top: 40px;
+    left: 665px;
+}
+
+
+#game{
+    position: absolute;
+    width: 1366px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 80px;
+}
+
+#roll-prompt{
+    position: absolute;
+}
+
+#rollagain, #pass{
+    border-radius: 30px;
+    /* position: absolute; */
+    background-color:#6184D8;
+    color: white;
+    padding: 10px;
+    border: none;
+    transform: scale(1);
+    /* text-align: center; */
+}
+
+#winner{
+    font-weight: 100;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    color:white;
+    background-color:black;
+}
+
+.message{
+    position: absolute;
+    top: 10px;
+}
+
+#trophy{
+    transition: all 1.5s;
+}
+
+#trophy:hover{
+    transform: scale(1.5);
+    transition: all 1.5s;
+}
+
+#dv-track{
+    position: absolute;
+    transform: scale(0.9);
+    margin-top: 60px;
+    margin-left: -30px;
+}
+
+#dl-track{
+    position: absolute;
+    transform: scale(0.9);
+    margin-top: 60px;
+    margin-left: -30px;
 }
