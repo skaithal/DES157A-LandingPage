@@ -1,0 +1,352 @@
+/* Holistic Elements --------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+#container{
+    width: 1366px;
+    height: 4608px;
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    background:white;
+}
+
+#main-nav{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-left: 74px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    z-index: 1;
+}
+
+#main-nav > a{
+    margin-right: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 62px;
+}
+
+h2{
+    font-weight: normal;
+    font-size: 25px;   
+}
+
+h3{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+p {
+    font-weight: normal;
+    font-size: 16px;   
+}
+
+
+
+/* Title Page ------------------------------------ */
+
+#title{
+    position: relative;
+    padding-top: 190px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 578px;
+}
+
+#title > h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#title > h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#title > img{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: block;
+    border-radius: 100%;
+    transform: scale(.9);
+    transition: 1s all;
+}
+
+#title > img:hover{
+    display: flex;
+    transition: 1s all;
+    transform: scale(1);
+    cursor: pointer;
+}
+
+/* Divs ------------------------------- */
+
+article > p{
+    padding-top: 20px;
+    /* font-style: italic; */
+}
+
+
+.flex-colors{ 
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.flex-colors > div{
+    position: relative;
+    margin-right: 20px;
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid white;
+}
+
+
+
+.flex-colors>div:hover{
+    transition: all 1s;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+
+.text-display{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 450px;
+    height: 618px;
+    margin-right: 0px;
+    margin-left: 74px;
+    margin-top: 200px;
+}
+
+.first-image{
+    margin-left: 621px;
+}
+
+.img-display{
+    margin-top: 141px;
+    width: 200px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+/* Sunatya */
+#sunatya h1{
+    margin-bottom: 0px;
+    margin-top: 0px;
+} 
+
+
+.subtitle{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+/* over rules the h2 rule for sunatya */
+.color-title{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+#sunatya p{
+    margin-bottom: 40px;
+    margin-top: 0;
+} 
+
+#sunatya{
+    position: relative;
+    background-color: #ddc1c5;
+    width: 1366px;
+    height: 768px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* Jhankaar */
+
+#jhankaar{
+    position: relative;
+    background-color: #9297AD;
+    width: 1366px;
+    height: 768px;
+}
+
+/* SF */
+
+#sanfrancisco{
+    position: relative;
+    background-color: #B3A7BA;
+    width: 1366px;
+    height: 768px;  
+}
+
+
+/* Pumpkin Patch */
+
+#pumpkinpatch{
+    position: relative;
+    background-color: #D59585;
+    width: 1366px;
+    height: 768px;
+}
+
+/* Burlingame */
+
+#burlingame{
+    position: relative;
+    background-color: #BCCCDE;
+    width: 1366px;
+    height: 768px;
+}
+
+
+/* Images ------------------------------------------ */
+
+#sunatya-img-1 {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+}
+
+#sunatya-img-2 {
+    position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 141px;
+}
+
+#sunatya-img-3 {
+    position:relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 415px;
+    /* margin-bottom: 200px; */
+    
+}
+
+/* Colors ---------------------------------------- */
+
+#jhankaar-1 {
+    background-color: #394972;
+    
+}
+
+#jhankaar-2 {
+    background-color: #CD784B;;
+}
+
+#jhankaar-3 {
+    background-color: #D44A2D;;
+}
+
+#jhankaar-4 {
+    background-color: black;
+}
+
+
+#sunatya-1 {
+    background-color: #F1BE71;
+}
+
+#sunatya-2 {
+    background-color:#676753;
+}
+
+#sunatya-3 {
+    background-color: white;
+}
+
+#sunatya-4 {
+    background-color: #787375;
+}
+
+
+.hidden {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.showing {
+    visibility:visible;
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transition-property: opacity, visibility;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+#ol-profile > article{
+    background-color: #ddc1c5;
+}
+
+#ol-usertesting > article{
+    background-color: rgb(199, 199, 235);
+}
+
+.overlay article {
+    box-sizing: border-box;
+    background-color: #fff;
+    width: 35vw;
+    height: 50vh;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    top: 700px;
+    left: 74px;
+} 
+
+footer a{
+    padding-right: 30px;
+    color: black;
+    text-decoration: none;
+}
